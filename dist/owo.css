@@ -1,0 +1,16 @@
+h1 {
+  background-color: yellow;
+  overflow: visible;
+}
+h1 p {
+  background-color: yellow;
+  margin: 0;
+}
+h1 p sticky::before {
+  max-height: 100px;
+}
+h1 body {
+  background-color: #e26e2aef;
+  border: 50px;
+  margin: 5px;
+}

@@ -6,6 +6,7 @@
  *   owo.sass 2:62  root stylesheet */
 
 body::before {
+  content:'';
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
       "Droid Sans Mono", monospace, monospace;
   white-space: pre;

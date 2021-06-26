@@ -4,4 +4,27 @@ h1
     background-color:$oao-1
     overflow: visible //溢出邊界時,內容會超出邊框 hidden 超出內容會被裁剪 scroll 超出時會有滑條可以向下查看內容 auto逼不得已才會有滑條
     $font-style-1: (key1: value1, key2: value2)
+    p
+        background-color:$oao-1
+        margin:0
+        sticky::before
+            max-height: 100px
+            color:block
+            border-color:pink
+            border-style:solid
+            display:inline-block
+    body
+        background-color:#e26e2aef
+        color:black
+        border: 50px
+        display:block
+        margin: 5px
     
+    @mixin owo()
+        background-color:#000 
+        
+    
+
+                
+
+
